@@ -1,0 +1,15 @@
+- Progetto RELATIVE (https://reverse.grok.me/) migrato/scaffoldato in Expo a /workspace/artifacts/relative-expo per pubblicazione App Store [2026-10-26]
+- App di riconoscimento/scoperta musica elettronica (Techno etc.) con filtri BPM, Camelot key, generi, integrazione Deezer
+- Scaffold Expo creato con tab navigation, genre selector, file picker, audio placeholder
+- Repo GitHub: Hackergut/RELATIVE (privato), progetto REVERSE/RELATIVE per musica elettronica
+- Ha già cartella expo-app completa: Expo SDK 58, Expo Router, NativeWind, expo-audio, EAS config, guida TESTFLIGHT.md
+- Web app principale in root (Vite + TanStack + Better Auth + Postgres)
+- Struttura Expo: tabs Radar/Cerca/Genera/Marketplace/Crate/Profilo + flussi analisi/traccia/player/paywall [2026-10-26]
+- RevenueCat integrato in expo-app: purchases.ts, init in _layout, paywall con offerings reali + fallback
+- eas.json e BUILD.md aggiornati con guida completa
+- Icone generate di esempio disponibili in artifacts (relative-icon.jpg, relative-splash.jpg)
+- Bundle ID proposto: com.reverse.app (da confermare) [2026-10-26]
+- Pipeline audio unificato: live + file \u2192 AudD recognition + LALAL.AI stems (vocals/drums/bass/piano/guitar/other) con polling reale
+- Modalit\u00e0 simulazione se mancano le key; download URL quando task LALAL \u00e8 done [2026-10-26]
+- Tool Techno/DJ: deepRelative search (BPM \u00b1, Camelot compatible, sub-style) + export Ableton notes/cues in risultati
+- Filtri e ordinamento ottimizzati per ambienti DJ/Techno [2026-10-26]
